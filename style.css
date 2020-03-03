@@ -1,0 +1,19 @@
+/* Base Styles */
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Layout Styles */
+.nav, .nav__menu {
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* Block Styles */
+.nav__menu-list--btn{
+    background-color: blue;
+    color: white;
+}
